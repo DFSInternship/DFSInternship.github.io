@@ -1,0 +1,683 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie10 lt-ie9"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-US" class="js flexbox webgl no-touch geolocation hashchange history websockets rgba hsla multiplebgs backgroundsize borderimage textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage applicationcache svg svgclippaths mediaqueries object-fit no-regions pointerevents supports fa-events-icons-ready"><!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	    <title>Central Virginia | Dress for Success Central Virginia</title>
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+				<link rel="apple-touch-icon" href="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/apple-icon-touch.png">
+		<link rel="icon" href="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/favicon.png">
+		<meta name="msapplication-TileColor" content="#f01d4f">
+		<meta name="msapplication-TileImage" content="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/win8-tile-icon.png">
+
+				<meta property="og:title" content="We brighten the lives of women across the world" />
+		<meta property="og:site_name" content="Central Virginia | Dress for Success Central Virginia"/>
+		<meta property="og:url" content="https://centralvirginia.dressforsuccess.org/" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content = "@dressforsuccess" />
+    <meta name="twitter:title" content = "We brighten the lives of women across the world" />
+      <meta property="og:image" content="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/og-dressforsuccess.jpg" />
+		<meta property="og:description" content="Dress for Success is an international not-for-profit organization that empowers women to achieve economic independence by providing a network of support, professional attire and the development tools to help women thrive in work and in life." />
+
+		<meta name="twitter:description" content = "Dress for Success is an international not-for-profit organization that empowers women to achieve economic independence by providing a network of support, professional attire and the development tools to help women thrive in work and in life." />
+		<meta name="twitter:image" content = "https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/og-dressforsuccess.jpg" />
+
+		<link rel="pingback" href="https://centralvirginia.dressforsuccess.org/xmlrpc.php">
+		<link href='//dressforsuccess.org/wp-content/themes/dfs/library/css/fonts/280023/1EE6660100036C146.css' rel='stylesheet' type='text/css'>
+
+				<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//cloud.typography.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dress for Success Central Virginia &raquo; Feed" href="https://centralvirginia.dressforsuccess.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dress for Success Central Virginia &raquo; Comments Feed" href="https://centralvirginia.dressforsuccess.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dress for Success Central Virginia &raquo; Home Comments Feed" href="https://centralvirginia.dressforsuccess.org/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/centralvirginia.dressforsuccess.org\/wp-includes\/js\/wp-emoji.js","twemoji":"https:\/\/centralvirginia.dressforsuccess.org\/wp-includes\/js\/twemoji.js"}};
+			/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	// Create a canvas element for testing native browser support of emoji.
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {number[]} set1 Set of Emoji character codes.
+	 * @param {number[]} set2 Set of Emoji character codes.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detects if the browser supports rendering emoji or flag emoji.
+	 *
+	 * Flag emoji are a single glyph made of two characters, so some browsers
+	 * (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDDFA, 0xD83C, 0xDDF3 ],
+					[ 0xD83C, 0xDDFA, 0x200B, 0xD83C, 0xDDF3 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDFF4, 0xDB40, 0xDC67, 0xDB40, 0xDC62, 0xDB40, 0xDC65, 0xDB40, 0xDC6E, 0xDB40, 0xDC67, 0xDB40, 0xDC7F ],
+					[ 0xD83C, 0xDFF4, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC62, 0x200B, 0xDB40, 0xDC65, 0x200B, 0xDB40, 0xDC6E, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC7F ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Love is love.
+				 *
+				 * To test for Emoji 12 support, try to render a new emoji: men holding hands, with different skin
+				 * tone modifiers.
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[0xD83D, 0xDC68, 0xD83C, 0xDFFE, 0x200D, 0xD83E, 0xDD1D, 0x200D, 0xD83D, 0xDC68, 0xD83C, 0xDFFC],
+					[0xD83D, 0xDC68, 0xD83C, 0xDFFE, 0x200B, 0xD83E, 0xDD1D, 0x200B, 0xD83D, 0xDC68, 0xD83C, 0xDFFC]
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {Object} src The url where the script is located.
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	/*
+	 * Tests the browser support for flag emojis and other emojis, and adjusts the
+	 * support settings accordingly.
+	 */
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	// Sets DOMReady to false and assigns a ready function to settings.
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	// When the browser can not render everything we need to load a polyfill.
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		/*
+		 * Cross-browser version of adding a dom ready event.
+		 */
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://centralvirginia.dressforsuccess.org/wp-includes/css/dist/block-library/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager/includes/css/events_manager.css' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-pro-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager-pro/includes/css/events-manager-pro.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gglcptch-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/plugins/google-captcha-pro/css/gglcptch.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/plugins/tablepress/css/default.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gotham-font-css'  href='//cloud.typography.com/6799492/758424/css/fonts.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bones-stylesheet-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/css/style.css?v=1.13' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='language-selector-stylesheet-css'  href='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/css/language-selector.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-includes/js/jquery/jquery-migrate.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/centralvirginia.dressforsuccess.org\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/centralvirginia.dressforsuccess.org\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/centralvirginia.dressforsuccess.org\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.css","show24hours":"0","is_ssl":"1","google_maps_api":"AIzaSyC-qmJbzyhG0_UK8R23RqjCbk67xZQgElI","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/centralvirginia.dressforsuccess.org\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","booking_offset":"30","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?","cache":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager/includes/js/events-manager.js'></script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js'></script>
+<link rel='https://api.w.org/' href='https://centralvirginia.dressforsuccess.org/wp-json/' />
+<link rel="canonical" href="https://centralvirginia.dressforsuccess.org/" />
+<link rel='shortlink' href='https://centralvirginia.dressforsuccess.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://centralvirginia.dressforsuccess.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcentralvirginia.dressforsuccess.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://centralvirginia.dressforsuccess.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcentralvirginia.dressforsuccess.org%2F&#038;format=xml" />
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','gaplusu');
+
+                                                            gaplusu('create', 'UA-620636-1', 'auto');
+                                        gaplusu('send', 'pageview');
+
+
+                            </script>
+
+				<style type="text/css">
+			.em-coupon-code { width:150px; }
+			#em-coupon-loading { display:inline-block; width:16px; height: 16px; margin-left:4px; background:url(https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager-pro/includes/images/spinner.gif)}
+			.em-coupon-message { display:inline-block; margin:5px 0px 0px 105px; text-indent:22px; }
+			.em-coupon-success { color:green; background:url(https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager-pro/includes/images/success.png) 0px 0px no-repeat }
+			.em-coupon-error { color:red; background:url(https://centralvirginia.dressforsuccess.org/wp-content/plugins/events-manager-pro/includes/images/error.png) 0px 0px no-repeat }
+			.em-cart-coupons-form .em-coupon-message{ margin:5px 0px 0px 0px; }
+			#em-coupon-loading { margin-right:4px; }
+		</style>
+
+		<script src="https://use.fontawesome.com/6807c96cc8.js"></script>
+
+		<script>
+			// modules register themselves to be init'd
+			window.modulesToInit = [];
+		</script>
+
+					</head>
+
+	<body class="home page-template page-template-page-affiliate page-template-page-affiliate-php page page-id-58">
+	  		<div id="container" class="translate">
+			<div id="black-overlay"></div>
+
+			<header class="header" role="banner">
+
+				<div id="inner-header" class="wrap clearfix">
+
+					<div class="header-top-row">
+
+						<section class="header__button-row">
+							<ul class="header-social-media">
+
+										<li class="header-facebook">
+											<a href="https://www.facebook.com/DressForSuccessCVA" target="_blank"></a>
+										</li>
+
+										<li class="header-twitter">
+											<a href="https://twitter.com/dfscentralva" target="_blank"></a>
+										</li>
+
+										<li class="header-instagram">
+											<a href="https://instagram.com/dfscentralva/" target="_blank"></a>
+										</li>
+
+										<li class="header-pinterest">
+											<a href="https://www.pinterest.com/dfsvirginia/" target="_blank"></a>
+										</li>
+																</ul>
+							<button onclick="window.open('/donate', '_self')" class="header__button red-button" type="button" name="donate">
+								<i class="fa fa-heart-o header__donate-button-heart--spacing" aria-hidden="true"></i> DONATE
+							</button>
+
+							<div id="header-language-selector" class="header__button">
+								<!-- Placeholder for language selector plugin -->
+							</div>
+
+
+						<div class="header-account-logged-out header__button"><button id="sign-in-btn" class="red-button" type="button">Sign in</button></div>						</section>
+					</div>
+
+					<div class="header-main-row clear-fix">
+												<p id="logo"><a href="https://centralvirginia.dressforsuccess.org" rel="nofollow">
+							<img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2014/12/CV-No-Tag-Web.jpg">
+						</a></p>
+
+
+						<button class="under-logo-btn affil-select-btn">Find Your Local Affiliate</button>
+
+													<a class="under-logo-btn worldwide-link" href="//www.dressforsuccess.org">DFS Worldwide</a>
+
+						<nav role="navigation">
+							<div class="nav-mobile-only">
+								<div id="sub-menu-title-sign-in" class="signed-out">SIGN IN</div>								<button class="nav-mobile-affiliate-btn">
+									<span class="nav-mobile-choose-location-globe"></span>
+									CHOOSE YOUR LOCATION
+								</button>
+							</div>
+
+							<ul id="menu-main-menu" class="top-nav clearfix"><li ><a data-id="83" data-title="About Us" href="https://centralvirginia.dressforsuccess.org/about-us/">About Us</a></li><li ><a data-id="90" data-title="Get Involved" href="https://centralvirginia.dressforsuccess.org/get-involved/">Get Involved</a></li><li ><a data-id="120" data-title="Client Services" href="https://centralvirginia.dressforsuccess.org/client-services/">Client Services</a></li><li ><a data-id="124" data-title="News" href="https://centralvirginia.dressforsuccess.org/news/">News</a></li><li ><a data-id="84" data-title="Contact" href="https://centralvirginia.dressforsuccess.org/contact/">Contact</a></li></ul><ul id="sub-menu-83" class="sub-menu"><li class="sub-menu-title"><a href="https://centralvirginia.dressforsuccess.org/about-us/">About Us</a></li><li class="sub-menu-back">BACK</li><li ><a data-id="88" data-title="What We Do" href="https://centralvirginia.dressforsuccess.org/about-us/what-we-do/">What We Do</a></li><li ><a data-id="89" data-title="Who We Are" href="https://centralvirginia.dressforsuccess.org/about-us/who-we-are/">Who We Are</a></li><li ><a data-id="87" data-title="Stories" href="https://centralvirginia.dressforsuccess.org/about-us/stories/">Stories</a></li><li ><a data-id="85" data-title="FAQs" href="https://centralvirginia.dressforsuccess.org/about-us/faqs/">FAQs</a></li><li ><a data-id="86" data-title="Jobs" href="https://centralvirginia.dressforsuccess.org/about-us/jobs/">Jobs</a></li><li><a target="_blank" data-title="Start an Affiliate" href="//www.dressforsuccess.org/about-us/start-an-affiliate">
+													Start an Affiliate
+												</a></li></ul><ul id="sub-menu-90" class="sub-menu"><li class="sub-menu-title"><a href="https://centralvirginia.dressforsuccess.org/get-involved/">Get Involved</a></li><li class="sub-menu-back">BACK</li><li ><a data-id="114" data-title="Donate" href="https://centralvirginia.dressforsuccess.org/get-involved/donate/">Donate</a></li><li ><a data-id="115" data-title="Events" href="https://centralvirginia.dressforsuccess.org/get-involved/events/">Events</a></li><li ><a data-id="116" data-title="Volunteer" href="https://centralvirginia.dressforsuccess.org/get-involved/volunteer/">Volunteer</a></li><li ><a data-id="117" data-title="Donation Drives" href="https://centralvirginia.dressforsuccess.org/get-involved/donation-drives/">Donation Drives</a></li><li ><a data-id="92" data-title="Corporate Partnerships" href="https://centralvirginia.dressforsuccess.org/get-involved/corporate-partnerships/">Corporate Partnerships</a></li><li ><a data-id="91" data-title="Referral Agencies" href="https://centralvirginia.dressforsuccess.org/get-involved/referral-agencies/">Referral Agencies</a></li></ul><ul id="sub-menu-client-services" class="sub-menu "><li class="sub-menu-title"><a href="/client-services">CLIENT SERVICES</a></li><li class="sub-menu-back">BACK</li><li><a href="https://centralvirginia.dressforsuccess.org/programs/suiting/">Suiting</a></li><li><a href="https://centralvirginia.dressforsuccess.org/programs/career-center/">Career Center</a></li></ul>
+							<div id="affil-select-mobile">
+								<div class="affil-select-mobile-current-location">COUNTRY</div>
+								<button class="affil-select-mobile-back-btn">BACK</button>
+								<ul data-list="level-1" data-child-list="level-2" class="clear-fix"><li data-Id="Albania">Albania</li><li data-Id="Australia">Australia</li><li data-Id="Canada">Canada</li><li data-Id="Colombia">Colombia</li><li data-Id="Guatemala">Guatemala</li><li data-Id="Ireland">Ireland</li><li data-Id="Italy">Italy</li><li data-Id="Jamaica">Jamaica</li><li data-Id="Kenya">Kenya</li><li data-Id="Lithuania">Lithuania</li><li data-Id="Luxembourg">Luxembourg</li><li data-Id="Mexico">Mexico</li><li data-Id="Mongolia">Mongolia</li><li data-Id="Nepal">Nepal</li><li data-Id="Netherlands">Netherlands</li><li data-Id="New-Zealand">New Zealand</li><li data-Id="Nigeria">Nigeria</li><li data-Id="Peru">Peru</li><li data-Id="Portugal">Portugal</li><li data-Id="Serbia">Serbia</li><li data-Id="Singapore">Singapore</li><li data-Id="South-Africa">South Africa</li><li data-Id="Sweden">Sweden</li><li data-Id="Uganda">Uganda</li><li data-Id="United-Kingdom">United Kingdom</li><li data-Id="USA">USA</li></ul><ul data-list="level-2" data-child-list="level-3" class="clear-fix"><li data-childOf="Albania"><a href="https://tirana.dressforsuccess.org">Tirana</a></li><li data-childOf="Australia"><a href="https://adelaide.dressforsuccess.org">Adelaide</a></li><li data-childOf="Australia"><a href="https://brisbane.dressforsuccess.org">Brisbane</a></li><li data-childOf="Australia"><a href="https://hobart.dressforsuccess.org">Hobart</a></li><li data-childOf="Australia"><a href="https://perth.dressforsuccess.org">Perth</a></li><li data-childOf="Australia"><a href="https://southeastmelbourne.dressforsuccess.org">South East Melbourne</a></li><li data-childOf="Australia"><a href="https://sydney.dressforsuccess.org">Sydney</a></li><li data-childOf="Canada"><a href="https://calgary.dressforsuccess.org">Calgary</a></li><li data-childOf="Canada"><a href="https://centralalberta.dressforsuccess.org">Central Alberta</a></li><li data-childOf="Canada"><a href="https://halifax.dressforsuccess.org">Halifax</a></li><li data-childOf="Canada"><a href="https://kelowna.dressforsuccess.org">Kelowna</a></li><li data-childOf="Canada"><a href="https://kingston.dressforsuccess.org">Kingston</a></li><li data-childOf="Canada"><a href="https://montreal.dressforsuccess.org">Montreal</a></li><li data-childOf="Canada"><a href="https://orilliaandbarrie.dressforsuccess.org">Orillia and Barrie</a></li><li data-childOf="Canada"><a href="https://ottawa.dressforsuccess.org">Ottawa</a></li><li data-childOf="Canada"><a href="https://regina.dressforsuccess.org">Regina</a></li><li data-childOf="Canada"><a href="https://saskatoon.dressforsuccess.org">Saskatoon</a></li><li data-childOf="Canada"><a href="https://toronto.dressforsuccess.org">Toronto</a></li><li data-childOf="Canada"><a href="https://vancouver.dressforsuccess.org">Vancouver</a></li><li data-childOf="Canada"><a href="https://winnipeg.dressforsuccess.org">Winnipeg</a></li><li data-childOf="Colombia"><a href="https://bogota.dressforsuccess.org">Bogotá</a></li><li data-childOf="Guatemala"><a href="https://guatemalacity.dressforsuccess.org">Guatemala City</a></li><li data-childOf="Ireland"><a href="https://cork.dressforsuccess.org">Cork</a></li><li data-childOf="Ireland"><a href="https://dublin.dressforsuccess.org">Dublin</a></li><li data-childOf="Italy"><a href="https://milan.dressforsuccess.org">Milan</a></li><li data-childOf="Italy"><a href="https://rome.dressforsuccess.org">Rome</a></li><li data-childOf="Jamaica"><a href="https://jamaica.dressforsuccess.org">Jamaica</a></li><li data-childOf="Kenya"><a href="https://nairobi.dressforsuccess.org">Nairobi</a></li><li data-childOf="Lithuania"><a href="https://vilnius.dressforsuccess.org">Vilnius - Lithuania</a></li><li data-childOf="Luxembourg"><a href="https://luxembourg.dressforsuccess.org">Luxembourg</a></li><li data-childOf="Mexico"><a href="https://mexicocity.dressforsuccess.org">Mexico City</a></li><li data-childOf="Mongolia"><a href="https://ulaanbaatar.dressforsuccess.org">Ulaanbaatar</a></li><li data-childOf="Nepal"><a href="https://kathmandu.dressforsuccess.org">Kathmandu</a></li><li data-childOf="Netherlands"><a href="https://amsterdam.dressforsuccess.org">Amsterdam</a></li><li data-childOf="Netherlands"><a href="https://eindhoven.dressforsuccess.org">Eindhoven</a></li><li data-childOf="Netherlands"><a href="https://gorinchem.dressforsuccess.org">Gorinchem</a></li><li data-childOf="Netherlands"><a href="https://hoogezandsappemeer.dressforsuccess.org">Hoogezand-Sappemeer</a></li><li data-childOf="Netherlands"><a href="https://leeuwarden.dressforsuccess.org">Leeuwarden</a></li><li data-childOf="Netherlands"><a href="https://leiden.dressforsuccess.org">Leiden</a></li><li data-childOf="Netherlands"><a href="https://maastricht.dressforsuccess.org">Maastricht</a></li><li data-childOf="Netherlands"><a href="https://rotterdam.dressforsuccess.org">Rotterdam</a></li><li data-childOf="Netherlands"><a href="https://utrecht.dressforsuccess.org">Utrecht</a></li><li data-childOf="New-Zealand"><a href="https://auckland.dressforsuccess.org">Auckland</a></li><li data-childOf="New-Zealand"><a href="https://bayofplenty.dressforsuccess.org">Bay of Plenty</a></li><li data-childOf="New-Zealand"><a href="https://christchurch.dressforsuccess.org">Christchurch</a></li><li data-childOf="New-Zealand"><a href="https://hamilton.dressforsuccess.org">Hamilton</a></li><li data-childOf="New-Zealand"><a href="https://hawkesbay.dressforsuccess.org">Hawkes Bay</a></li><li data-childOf="New-Zealand"><a href="https://newplymouth.dressforsuccess.org">New Plymouth</a></li><li data-childOf="New-Zealand"><a href="https://northland.dressforsuccess.org">Northland</a></li><li data-childOf="New-Zealand"><a href="https://rotorua.dressforsuccess.org">Rotorua</a></li><li data-childOf="New-Zealand"><a href="https://wellington.dressforsuccess.org">Wellington</a></li><li data-childOf="Nigeria"><a href="https://lagos.dressforsuccess.org">Lagos</a></li><li data-childOf="Peru"><a href="https://lima.dressforsuccess.org">Lima</a></li><li data-childOf="Portugal"><a href="https://lisbon.dressforsuccess.org">Lisbon</a></li><li data-childOf="Portugal"><a href="https://oporto.dressforsuccess.org">Oporto</a></li><li data-childOf="Serbia"><a href="https://belgrade.dressforsuccess.org">Belgrade</a></li><li data-childOf="Singapore"><a href="https://singapore.dressforsuccess.org">Singapore</a></li><li data-childOf="South-Africa"><a href="https://capetown.dressforsuccess.org">Cape Town</a></li><li data-childOf="Sweden"><a href="https://stockholm.dressforsuccess.org">Stockholm</a></li><li data-childOf="Uganda"><a href="https://kampala.dressforsuccess.org">Kampala - Uganda</a></li><li data-childOf="United-Kingdom"><a href="https://foyle.dressforsuccess.org">Foyle - Northern Ireland</a></li><li data-childOf="United-Kingdom"><a href="https://greaterlondon.dressforsuccess.org">Greater London</a></li><li data-childOf="United-Kingdom"><a href="https://scotland.dressforsuccess.org">Scotland</a></li><li data-Id="USA_Arizona" data-childOf="USA" class="state">Arizona</li><li data-Id="USA_Arkansas" data-childOf="USA" class="state">Arkansas</li><li data-Id="USA_California" data-childOf="USA" class="state">California</li><li data-Id="USA_Colorado" data-childOf="USA" class="state">Colorado</li><li data-Id="USA_Connecticut" data-childOf="USA" class="state">Connecticut</li><li data-Id="USA_District-of-Columbia" data-childOf="USA" class="state">District of Columbia</li><li data-Id="USA_Florida" data-childOf="USA" class="state">Florida</li><li data-Id="USA_Georgia" data-childOf="USA" class="state">Georgia</li><li data-Id="USA_Hawaii" data-childOf="USA" class="state">Hawaii</li><li data-Id="USA_Idaho" data-childOf="USA" class="state">Idaho</li><li data-Id="USA_Illinois" data-childOf="USA" class="state">Illinois</li><li data-Id="USA_Indiana" data-childOf="USA" class="state">Indiana</li><li data-Id="USA_Iowa" data-childOf="USA" class="state">Iowa</li><li data-Id="USA_Kansas" data-childOf="USA" class="state">Kansas</li><li data-Id="USA_Kentucky" data-childOf="USA" class="state">Kentucky</li><li data-Id="USA_Louisiana" data-childOf="USA" class="state">Louisiana</li><li data-Id="USA_Maryland" data-childOf="USA" class="state">Maryland</li><li data-Id="USA_Massachusetts" data-childOf="USA" class="state">Massachusetts</li><li data-Id="USA_Michigan" data-childOf="USA" class="state">Michigan</li><li data-Id="USA_Minnesota" data-childOf="USA" class="state">Minnesota</li><li data-Id="USA_Mississippi" data-childOf="USA" class="state">Mississippi</li><li data-Id="USA_Missouri" data-childOf="USA" class="state">Missouri</li><li data-Id="USA_Montana" data-childOf="USA" class="state">Montana</li><li data-Id="USA_Nevada" data-childOf="USA" class="state">Nevada</li><li data-Id="USA_New-Jersey" data-childOf="USA" class="state">New Jersey</li><li data-Id="USA_New-Mexico" data-childOf="USA" class="state">New Mexico</li><li data-Id="USA_New-York" data-childOf="USA" class="state">New York</li><li data-Id="USA_North-Carolina" data-childOf="USA" class="state">North Carolina</li><li data-Id="USA_Ohio" data-childOf="USA" class="state">Ohio</li><li data-Id="USA_Oklahoma" data-childOf="USA" class="state">Oklahoma</li><li data-Id="USA_Oregon" data-childOf="USA" class="state">Oregon</li><li data-Id="USA_Pennsylvania" data-childOf="USA" class="state">Pennsylvania</li><li data-Id="USA_Rhode-Island" data-childOf="USA" class="state">Rhode Island</li><li data-Id="USA_South-Carolina" data-childOf="USA" class="state">South Carolina</li><li data-Id="USA_South-Dakota" data-childOf="USA" class="state">South Dakota</li><li data-Id="USA_Tennessee" data-childOf="USA" class="state">Tennessee</li><li data-Id="USA_Texas" data-childOf="USA" class="state">Texas</li><li data-Id="USA_Virginia" data-childOf="USA" class="state">Virginia</li><li data-Id="USA_Washington" data-childOf="USA" class="state">Washington</li><li data-Id="USA_West-Virginia" data-childOf="USA" class="state">West Virginia</li><li data-Id="USA_Wisconsin" data-childOf="USA" class="state">Wisconsin</li></ul><ul data-list="level-3" class="clear-fix"><li data-childOf="USA_Arizona"><a href="https://phoenix.dressforsuccess.org">Phoenix</a></li><li data-childOf="USA_Arkansas"><a href="https://northwestarkansas.dressforsuccess.org">Northwest Arkansas</a></li><li data-childOf="USA_California"><a href="https://bakersfield.dressforsuccess.org">Bakersfield</a></li><li data-childOf="USA_California"><a href="https://fresno.dressforsuccess.org">Fresno</a></li><li data-childOf="USA_California"><a href="https://riverside.dressforsuccess.org">Riverside</a></li><li data-childOf="USA_California"><a href="https://sacramento.dressforsuccess.org">Sacramento</a></li><li data-childOf="USA_California"><a href="https://sanfrancisco.dressforsuccess.org">San Francisco</a></li><li data-childOf="USA_California"><a href="https://sanjose.dressforsuccess.org">San Jose</a></li><li data-childOf="USA_California"><a href="https://stockton.dressforsuccess.org">Stockton</a></li><li data-childOf="USA_California"><a href="https://worldwidewest.dressforsuccess.org">Worldwide West (LA)</a></li><li data-childOf="USA_Colorado"><a href="https://denver.dressforsuccess.org">Denver</a></li><li data-childOf="USA_Connecticut"><a href="https://hartford.dressforsuccess.org">Hartford</a></li><li data-childOf="USA_Connecticut"><a href="https://midfairfieldcounty.dressforsuccess.org">Mid-Fairfield County</a></li><li data-childOf="USA_District-of-Columbia"><a href="https://washingtondc.dressforsuccess.org">Washington DC</a></li><li data-childOf="USA_Florida"><a href="https://greaterorlando.dressforsuccess.org">Greater Orlando</a></li><li data-childOf="USA_Florida"><a href="https://miami.dressforsuccess.org">Miami</a></li><li data-childOf="USA_Florida"><a href="https://palmbeaches.dressforsuccess.org">Palm Beaches</a></li><li data-childOf="USA_Florida"><a href="https://swflorida.dressforsuccess.org">SW Florida</a></li><li data-childOf="USA_Florida"><a href="https://tampabay.dressforsuccess.org">Tampa Bay</a></li><li data-childOf="USA_Georgia"><a href="https://atlanta.dressforsuccess.org">Atlanta</a></li><li data-childOf="USA_Hawaii"><a href="https://honolulu.dressforsuccess.org">Honolulu</a></li><li data-childOf="USA_Idaho"><a href="https://boisevalley.dressforsuccess.org">Boise Valley</a></li><li data-childOf="USA_Illinois"><a href="https://worldwidecentral.dressforsuccess.org">Worldwide Central (Chicago)</a></li><li data-childOf="USA_Indiana"><a href="https://fortwayne.dressforsuccess.org">Fort Wayne</a></li><li data-childOf="USA_Indiana"><a href="https://indianapolis.dressforsuccess.org">Indianapolis</a></li><li data-childOf="USA_Indiana"><a href="https://michiana.dressforsuccess.org">Michiana</a></li><li data-childOf="USA_Iowa"><a href="https://desmoines.dressforsuccess.org">Des Moines</a></li><li data-childOf="USA_Iowa"><a href="https://quadcities.dressforsuccess.org">Quad Cities</a></li><li data-childOf="USA_Kansas"><a href="https://wichita.dressforsuccess.org">Wichita</a></li><li data-childOf="USA_Kentucky"><a href="https://lexington.dressforsuccess.org">Lexington</a></li><li data-childOf="USA_Kentucky"><a href="https://louisville.dressforsuccess.org">Louisville</a></li><li data-childOf="USA_Louisiana"><a href="https://neworleans.dressforsuccess.org">New Orleans</a></li><li data-childOf="USA_Louisiana"><a href="https://shreveport-bossier.dressforsuccess.org">Shreveport-Bossier</a></li><li data-childOf="USA_Maryland"><a href="https://greaterbaltimore.dressforsuccess.org">Greater Baltimore</a></li><li data-childOf="USA_Massachusetts"><a href="https://boston.dressforsuccess.org">Boston</a></li><li data-childOf="USA_Massachusetts"><a href="https://westernmass.dressforsuccess.org">Western Massachusetts</a></li><li data-childOf="USA_Massachusetts"><a href="https://worcester.dressforsuccess.org">Worcester</a></li><li data-childOf="USA_Michigan"><a href="https://michigan.dressforsuccess.org">Michigan</a></li><li data-childOf="USA_Minnesota"><a href="https://twincities.dressforsuccess.org">Twin Cities</a></li><li data-childOf="USA_Mississippi"><a href="https://metrojackson.dressforsuccess.org">Metro Jackson</a></li><li data-childOf="USA_Missouri"><a href="https://kansascity.dressforsuccess.org">Kansas City</a></li><li data-childOf="USA_Missouri"><a href="https://midwest.dressforsuccess.org">Midwest</a></li><li data-childOf="USA_Montana"><a href="https://billings.dressforsuccess.org">Billings</a></li><li data-childOf="USA_Montana"><a href="https://flatheadvalley.dressforsuccess.org">Flathead Valley</a></li><li data-childOf="USA_Nevada"><a href="https://reno.dressforsuccess.org">Reno - Northern Nevada</a></li><li data-childOf="USA_Nevada"><a href="https://southernnevada.dressforsuccess.org">Southern Nevada</a></li><li data-childOf="USA_New-Jersey"><a href="https://centralnj.dressforsuccess.org">Central New Jersey - 7 Counties</a></li><li data-childOf="USA_New-Jersey"><a href="https://hudsoncounty.dressforsuccess.org">Hudson County</a></li><li data-childOf="USA_New-Jersey"><a href="https://northernnj.dressforsuccess.org">Northern New Jersey - 10 Counties</a></li><li data-childOf="USA_New-Mexico"><a href="https://albuquerque.dressforsuccess.org">Albuquerque</a></li><li data-childOf="USA_New-York"><a href="https://albany.dressforsuccess.org">Albany</a></li><li data-childOf="USA_New-York"><a href="https://brookhaven.dressforsuccess.org">Brookhaven</a></li><li data-childOf="USA_New-York"><a href="https://buffalo.dressforsuccess.org">Buffalo</a></li><li data-childOf="USA_New-York"><a href="https://dutchesscounty.dressforsuccess.org">Dutchess County</a></li><li data-childOf="USA_New-York"><a href="https://rochester.dressforsuccess.org">Rochester</a></li><li data-childOf="USA_New-York"><a href="https://dressforsuccess.org">Worldwide</a></li><li data-childOf="USA_New-York"><a href="https://newyork.dressforsuccess.org">Worldwide - New York Program</a></li><li data-childOf="USA_North-Carolina"><a href="https://charlotte.dressforsuccess.org">Charlotte</a></li><li data-childOf="USA_North-Carolina"><a href="https://trianglenc.dressforsuccess.org">Triangle NC</a></li><li data-childOf="USA_North-Carolina"><a href="https://winstonsalem.dressforsuccess.org">Winston-Salem</a></li><li data-childOf="USA_Ohio"><a href="https://cincinnati.dressforsuccess.org">Cincinnati</a></li><li data-childOf="USA_Ohio"><a href="https://cleveland.dressforsuccess.org">Cleveland</a></li><li data-childOf="USA_Ohio"><a href="https://columbus.dressforsuccess.org">Columbus</a></li><li data-childOf="USA_Oklahoma"><a href="https://oklahomacity.dressforsuccess.org">Oklahoma City</a></li><li data-childOf="USA_Oklahoma"><a href="https://tulsa.dressforsuccess.org">Tulsa</a></li><li data-childOf="USA_Oregon"><a href="https://oregon.dressforsuccess.org">Oregon</a></li><li data-childOf="USA_Pennsylvania"><a href="https://allentown.dressforsuccess.org">Allentown</a></li><li data-childOf="USA_Pennsylvania"><a href="https://erie.dressforsuccess.org">Erie</a></li><li data-childOf="USA_Pennsylvania"><a href="https://lackawanna.dressforsuccess.org">Lackawanna</a></li><li data-childOf="USA_Pennsylvania"><a href="https://luzernecounty.dressforsuccess.org">Luzerne County</a></li><li data-childOf="USA_Pennsylvania"><a href="https://pittsburgh.dressforsuccess.org">Pittsburgh</a></li><li data-childOf="USA_Pennsylvania"><a href="https://southcentralpa.dressforsuccess.org">South Central PA</a></li><li data-childOf="USA_Rhode-Island"><a href="https://providence.dressforsuccess.org">Providence</a></li><li data-childOf="USA_South-Carolina"><a href="https://charlestoncounty.dressforsuccess.org">Charleston County</a></li><li data-childOf="USA_South-Carolina"><a href="https://columbia.dressforsuccess.org">Columbia</a></li><li data-childOf="USA_South-Dakota"><a href="https://blackhills.dressforsuccess.org">Black Hills - South Dakota</a></li><li data-childOf="USA_South-Dakota"><a href="https://siouxfalls.dressforsuccess.org">Sioux Falls</a></li><li data-childOf="USA_Tennessee"><a href="https://chattanooga.dressforsuccess.org">Chattanooga</a></li><li data-childOf="USA_Tennessee"><a href="https://memphis.dressforsuccess.org">Memphis</a></li><li data-childOf="USA_Tennessee"><a href="https://nashville.dressforsuccess.org">Nashville</a></li><li data-childOf="USA_Texas"><a href="https://austin.dressforsuccess.org">Austin</a></li><li data-childOf="USA_Texas"><a href="https://corpuschristi.dressforsuccess.org">Corpus Christi</a></li><li data-childOf="USA_Texas"><a href="https://dallas.dressforsuccess.org">Dallas</a></li><li data-childOf="USA_Texas"><a href="https://houston.dressforsuccess.org">Houston</a></li><li data-childOf="USA_Texas"><a href="https://permianbasin.dressforsuccess.org">Permian Basin - Texas</a></li><li data-childOf="USA_Texas"><a href="https://sanantonio.dressforsuccess.org">San Antonio</a></li><li data-childOf="USA_Virginia"><a href="https://centralvirginia.dressforsuccess.org">Central Virginia</a></li><li data-childOf="USA_Virginia"><a href="https://hamptonroads.dressforsuccess.org">Hampton Roads</a></li><li data-childOf="USA_Virginia"><a href="https://newrivervalley.dressforsuccess.org">New River Valley</a></li><li data-childOf="USA_Washington"><a href="https://seattle.dressforsuccess.org">Seattle</a></li><li data-childOf="USA_West-Virginia"><a href="https://rivercities.dressforsuccess.org">River Cities</a></li><li data-childOf="USA_Wisconsin"><a href="https://racine.dressforsuccess.org">Racine</a></li></ul>							</div>
+
+							<div class="nav-mobile-only">
+								<a href="https://www.facebook.com/DressForSuccessCVA" class="nav-mobile-only-social nav-mobile-only-facebook hide-text">facebook</a>
+								<a href="https://twitter.com/dfscentralva" class="nav-mobile-only-social nav-mobile-only-twitter hide-text">twitter</a>
+								<a href="https://instagram.com/dfscentralva/" class="nav-mobile-only-social nav-mobile-only-insta hide-text">instagram</a>
+								<a href="https://www.pinterest.com/dfsvirginia/" class="nav-mobile-only-social nav-mobile-only-pinterest hide-text">pinterest</a>
+								<a href="" class="nav-mobile-only-social nav-mobile-only-linkedin hide-text">linkedin</a>
+
+								<a href="/donate" class="nav-mobile-only-donate-btn hide-text">donate</a>
+							</div>
+						</nav>
+
+						<button class="nav-mobile-btn"></button>
+					</div>
+				</div>
+
+							</header>
+
+		<div id="affiliate-selection-overlay">
+			<div class="affil-select-wrapper">
+				<div class="affil-select-header">
+					<div class="affil-select-header-items">
+						<a href="/" class="affil-select-logo" alt="Dress for Success. Going Places. Going Strong."></a>
+						<!--<button class="affil-select-btn active">Select</button>-->
+					</div>
+					<button class="affil-select-close"></button>
+				</div>
+				<div class="affil-select-nav-bar">
+					<ul>
+					</ul>
+				</div>
+				<div class="affil-select-instance-list">
+				<ul data-list="level-1" data-child-list="level-2" class="clear-fix"><li data-Id="Albania">Albania</li><li data-Id="Australia">Australia</li><li data-Id="Canada">Canada</li><li data-Id="Colombia">Colombia</li><li data-Id="Guatemala">Guatemala</li><li data-Id="Ireland">Ireland</li><li data-Id="Italy">Italy</li><li data-Id="Jamaica">Jamaica</li><li data-Id="Kenya">Kenya</li><li data-Id="Lithuania">Lithuania</li><li data-Id="Luxembourg">Luxembourg</li><li data-Id="Mexico">Mexico</li><li data-Id="Mongolia">Mongolia</li><li data-Id="Nepal">Nepal</li><li data-Id="Netherlands">Netherlands</li><li data-Id="New-Zealand">New Zealand</li><li data-Id="Nigeria">Nigeria</li><li data-Id="Peru">Peru</li><li data-Id="Portugal">Portugal</li><li data-Id="Serbia">Serbia</li><li data-Id="Singapore">Singapore</li><li data-Id="South-Africa">South Africa</li><li data-Id="Sweden">Sweden</li><li data-Id="Uganda">Uganda</li><li data-Id="United-Kingdom">United Kingdom</li><li data-Id="USA">USA</li></ul><ul data-list="level-2" data-child-list="level-3" class="clear-fix"><li data-childOf="Albania"><a href="https://tirana.dressforsuccess.org">Tirana</a></li><li data-childOf="Australia"><a href="https://adelaide.dressforsuccess.org">Adelaide</a></li><li data-childOf="Australia"><a href="https://brisbane.dressforsuccess.org">Brisbane</a></li><li data-childOf="Australia"><a href="https://hobart.dressforsuccess.org">Hobart</a></li><li data-childOf="Australia"><a href="https://perth.dressforsuccess.org">Perth</a></li><li data-childOf="Australia"><a href="https://southeastmelbourne.dressforsuccess.org">South East Melbourne</a></li><li data-childOf="Australia"><a href="https://sydney.dressforsuccess.org">Sydney</a></li><li data-childOf="Canada"><a href="https://calgary.dressforsuccess.org">Calgary</a></li><li data-childOf="Canada"><a href="https://centralalberta.dressforsuccess.org">Central Alberta</a></li><li data-childOf="Canada"><a href="https://halifax.dressforsuccess.org">Halifax</a></li><li data-childOf="Canada"><a href="https://kelowna.dressforsuccess.org">Kelowna</a></li><li data-childOf="Canada"><a href="https://kingston.dressforsuccess.org">Kingston</a></li><li data-childOf="Canada"><a href="https://montreal.dressforsuccess.org">Montreal</a></li><li data-childOf="Canada"><a href="https://orilliaandbarrie.dressforsuccess.org">Orillia and Barrie</a></li><li data-childOf="Canada"><a href="https://ottawa.dressforsuccess.org">Ottawa</a></li><li data-childOf="Canada"><a href="https://regina.dressforsuccess.org">Regina</a></li><li data-childOf="Canada"><a href="https://saskatoon.dressforsuccess.org">Saskatoon</a></li><li data-childOf="Canada"><a href="https://toronto.dressforsuccess.org">Toronto</a></li><li data-childOf="Canada"><a href="https://vancouver.dressforsuccess.org">Vancouver</a></li><li data-childOf="Canada"><a href="https://winnipeg.dressforsuccess.org">Winnipeg</a></li><li data-childOf="Colombia"><a href="https://bogota.dressforsuccess.org">Bogotá</a></li><li data-childOf="Guatemala"><a href="https://guatemalacity.dressforsuccess.org">Guatemala City</a></li><li data-childOf="Ireland"><a href="https://cork.dressforsuccess.org">Cork</a></li><li data-childOf="Ireland"><a href="https://dublin.dressforsuccess.org">Dublin</a></li><li data-childOf="Italy"><a href="https://milan.dressforsuccess.org">Milan</a></li><li data-childOf="Italy"><a href="https://rome.dressforsuccess.org">Rome</a></li><li data-childOf="Jamaica"><a href="https://jamaica.dressforsuccess.org">Jamaica</a></li><li data-childOf="Kenya"><a href="https://nairobi.dressforsuccess.org">Nairobi</a></li><li data-childOf="Lithuania"><a href="https://vilnius.dressforsuccess.org">Vilnius - Lithuania</a></li><li data-childOf="Luxembourg"><a href="https://luxembourg.dressforsuccess.org">Luxembourg</a></li><li data-childOf="Mexico"><a href="https://mexicocity.dressforsuccess.org">Mexico City</a></li><li data-childOf="Mongolia"><a href="https://ulaanbaatar.dressforsuccess.org">Ulaanbaatar</a></li><li data-childOf="Nepal"><a href="https://kathmandu.dressforsuccess.org">Kathmandu</a></li><li data-childOf="Netherlands"><a href="https://amsterdam.dressforsuccess.org">Amsterdam</a></li><li data-childOf="Netherlands"><a href="https://eindhoven.dressforsuccess.org">Eindhoven</a></li><li data-childOf="Netherlands"><a href="https://gorinchem.dressforsuccess.org">Gorinchem</a></li><li data-childOf="Netherlands"><a href="https://hoogezandsappemeer.dressforsuccess.org">Hoogezand-Sappemeer</a></li><li data-childOf="Netherlands"><a href="https://leeuwarden.dressforsuccess.org">Leeuwarden</a></li><li data-childOf="Netherlands"><a href="https://leiden.dressforsuccess.org">Leiden</a></li><li data-childOf="Netherlands"><a href="https://maastricht.dressforsuccess.org">Maastricht</a></li><li data-childOf="Netherlands"><a href="https://rotterdam.dressforsuccess.org">Rotterdam</a></li><li data-childOf="Netherlands"><a href="https://utrecht.dressforsuccess.org">Utrecht</a></li><li data-childOf="New-Zealand"><a href="https://auckland.dressforsuccess.org">Auckland</a></li><li data-childOf="New-Zealand"><a href="https://bayofplenty.dressforsuccess.org">Bay of Plenty</a></li><li data-childOf="New-Zealand"><a href="https://christchurch.dressforsuccess.org">Christchurch</a></li><li data-childOf="New-Zealand"><a href="https://hamilton.dressforsuccess.org">Hamilton</a></li><li data-childOf="New-Zealand"><a href="https://hawkesbay.dressforsuccess.org">Hawkes Bay</a></li><li data-childOf="New-Zealand"><a href="https://newplymouth.dressforsuccess.org">New Plymouth</a></li><li data-childOf="New-Zealand"><a href="https://northland.dressforsuccess.org">Northland</a></li><li data-childOf="New-Zealand"><a href="https://rotorua.dressforsuccess.org">Rotorua</a></li><li data-childOf="New-Zealand"><a href="https://wellington.dressforsuccess.org">Wellington</a></li><li data-childOf="Nigeria"><a href="https://lagos.dressforsuccess.org">Lagos</a></li><li data-childOf="Peru"><a href="https://lima.dressforsuccess.org">Lima</a></li><li data-childOf="Portugal"><a href="https://lisbon.dressforsuccess.org">Lisbon</a></li><li data-childOf="Portugal"><a href="https://oporto.dressforsuccess.org">Oporto</a></li><li data-childOf="Serbia"><a href="https://belgrade.dressforsuccess.org">Belgrade</a></li><li data-childOf="Singapore"><a href="https://singapore.dressforsuccess.org">Singapore</a></li><li data-childOf="South-Africa"><a href="https://capetown.dressforsuccess.org">Cape Town</a></li><li data-childOf="Sweden"><a href="https://stockholm.dressforsuccess.org">Stockholm</a></li><li data-childOf="Uganda"><a href="https://kampala.dressforsuccess.org">Kampala - Uganda</a></li><li data-childOf="United-Kingdom"><a href="https://foyle.dressforsuccess.org">Foyle - Northern Ireland</a></li><li data-childOf="United-Kingdom"><a href="https://greaterlondon.dressforsuccess.org">Greater London</a></li><li data-childOf="United-Kingdom"><a href="https://scotland.dressforsuccess.org">Scotland</a></li><li data-Id="USA_Arizona" data-childOf="USA" class="state">Arizona</li><li data-Id="USA_Arkansas" data-childOf="USA" class="state">Arkansas</li><li data-Id="USA_California" data-childOf="USA" class="state">California</li><li data-Id="USA_Colorado" data-childOf="USA" class="state">Colorado</li><li data-Id="USA_Connecticut" data-childOf="USA" class="state">Connecticut</li><li data-Id="USA_District-of-Columbia" data-childOf="USA" class="state">District of Columbia</li><li data-Id="USA_Florida" data-childOf="USA" class="state">Florida</li><li data-Id="USA_Georgia" data-childOf="USA" class="state">Georgia</li><li data-Id="USA_Hawaii" data-childOf="USA" class="state">Hawaii</li><li data-Id="USA_Idaho" data-childOf="USA" class="state">Idaho</li><li data-Id="USA_Illinois" data-childOf="USA" class="state">Illinois</li><li data-Id="USA_Indiana" data-childOf="USA" class="state">Indiana</li><li data-Id="USA_Iowa" data-childOf="USA" class="state">Iowa</li><li data-Id="USA_Kansas" data-childOf="USA" class="state">Kansas</li><li data-Id="USA_Kentucky" data-childOf="USA" class="state">Kentucky</li><li data-Id="USA_Louisiana" data-childOf="USA" class="state">Louisiana</li><li data-Id="USA_Maryland" data-childOf="USA" class="state">Maryland</li><li data-Id="USA_Massachusetts" data-childOf="USA" class="state">Massachusetts</li><li data-Id="USA_Michigan" data-childOf="USA" class="state">Michigan</li><li data-Id="USA_Minnesota" data-childOf="USA" class="state">Minnesota</li><li data-Id="USA_Mississippi" data-childOf="USA" class="state">Mississippi</li><li data-Id="USA_Missouri" data-childOf="USA" class="state">Missouri</li><li data-Id="USA_Montana" data-childOf="USA" class="state">Montana</li><li data-Id="USA_Nevada" data-childOf="USA" class="state">Nevada</li><li data-Id="USA_New-Jersey" data-childOf="USA" class="state">New Jersey</li><li data-Id="USA_New-Mexico" data-childOf="USA" class="state">New Mexico</li><li data-Id="USA_New-York" data-childOf="USA" class="state">New York</li><li data-Id="USA_North-Carolina" data-childOf="USA" class="state">North Carolina</li><li data-Id="USA_Ohio" data-childOf="USA" class="state">Ohio</li><li data-Id="USA_Oklahoma" data-childOf="USA" class="state">Oklahoma</li><li data-Id="USA_Oregon" data-childOf="USA" class="state">Oregon</li><li data-Id="USA_Pennsylvania" data-childOf="USA" class="state">Pennsylvania</li><li data-Id="USA_Rhode-Island" data-childOf="USA" class="state">Rhode Island</li><li data-Id="USA_South-Carolina" data-childOf="USA" class="state">South Carolina</li><li data-Id="USA_South-Dakota" data-childOf="USA" class="state">South Dakota</li><li data-Id="USA_Tennessee" data-childOf="USA" class="state">Tennessee</li><li data-Id="USA_Texas" data-childOf="USA" class="state">Texas</li><li data-Id="USA_Virginia" data-childOf="USA" class="state">Virginia</li><li data-Id="USA_Washington" data-childOf="USA" class="state">Washington</li><li data-Id="USA_West-Virginia" data-childOf="USA" class="state">West Virginia</li><li data-Id="USA_Wisconsin" data-childOf="USA" class="state">Wisconsin</li></ul><ul data-list="level-3" class="clear-fix"><li data-childOf="USA_Arizona"><a href="https://phoenix.dressforsuccess.org">Phoenix</a></li><li data-childOf="USA_Arkansas"><a href="https://northwestarkansas.dressforsuccess.org">Northwest Arkansas</a></li><li data-childOf="USA_California"><a href="https://bakersfield.dressforsuccess.org">Bakersfield</a></li><li data-childOf="USA_California"><a href="https://fresno.dressforsuccess.org">Fresno</a></li><li data-childOf="USA_California"><a href="https://riverside.dressforsuccess.org">Riverside</a></li><li data-childOf="USA_California"><a href="https://sacramento.dressforsuccess.org">Sacramento</a></li><li data-childOf="USA_California"><a href="https://sanfrancisco.dressforsuccess.org">San Francisco</a></li><li data-childOf="USA_California"><a href="https://sanjose.dressforsuccess.org">San Jose</a></li><li data-childOf="USA_California"><a href="https://stockton.dressforsuccess.org">Stockton</a></li><li data-childOf="USA_California"><a href="https://worldwidewest.dressforsuccess.org">Worldwide West (LA)</a></li><li data-childOf="USA_Colorado"><a href="https://denver.dressforsuccess.org">Denver</a></li><li data-childOf="USA_Connecticut"><a href="https://hartford.dressforsuccess.org">Hartford</a></li><li data-childOf="USA_Connecticut"><a href="https://midfairfieldcounty.dressforsuccess.org">Mid-Fairfield County</a></li><li data-childOf="USA_District-of-Columbia"><a href="https://washingtondc.dressforsuccess.org">Washington DC</a></li><li data-childOf="USA_Florida"><a href="https://greaterorlando.dressforsuccess.org">Greater Orlando</a></li><li data-childOf="USA_Florida"><a href="https://miami.dressforsuccess.org">Miami</a></li><li data-childOf="USA_Florida"><a href="https://palmbeaches.dressforsuccess.org">Palm Beaches</a></li><li data-childOf="USA_Florida"><a href="https://swflorida.dressforsuccess.org">SW Florida</a></li><li data-childOf="USA_Florida"><a href="https://tampabay.dressforsuccess.org">Tampa Bay</a></li><li data-childOf="USA_Georgia"><a href="https://atlanta.dressforsuccess.org">Atlanta</a></li><li data-childOf="USA_Hawaii"><a href="https://honolulu.dressforsuccess.org">Honolulu</a></li><li data-childOf="USA_Idaho"><a href="https://boisevalley.dressforsuccess.org">Boise Valley</a></li><li data-childOf="USA_Illinois"><a href="https://worldwidecentral.dressforsuccess.org">Worldwide Central (Chicago)</a></li><li data-childOf="USA_Indiana"><a href="https://fortwayne.dressforsuccess.org">Fort Wayne</a></li><li data-childOf="USA_Indiana"><a href="https://indianapolis.dressforsuccess.org">Indianapolis</a></li><li data-childOf="USA_Indiana"><a href="https://michiana.dressforsuccess.org">Michiana</a></li><li data-childOf="USA_Iowa"><a href="https://desmoines.dressforsuccess.org">Des Moines</a></li><li data-childOf="USA_Iowa"><a href="https://quadcities.dressforsuccess.org">Quad Cities</a></li><li data-childOf="USA_Kansas"><a href="https://wichita.dressforsuccess.org">Wichita</a></li><li data-childOf="USA_Kentucky"><a href="https://lexington.dressforsuccess.org">Lexington</a></li><li data-childOf="USA_Kentucky"><a href="https://louisville.dressforsuccess.org">Louisville</a></li><li data-childOf="USA_Louisiana"><a href="https://neworleans.dressforsuccess.org">New Orleans</a></li><li data-childOf="USA_Louisiana"><a href="https://shreveport-bossier.dressforsuccess.org">Shreveport-Bossier</a></li><li data-childOf="USA_Maryland"><a href="https://greaterbaltimore.dressforsuccess.org">Greater Baltimore</a></li><li data-childOf="USA_Massachusetts"><a href="https://boston.dressforsuccess.org">Boston</a></li><li data-childOf="USA_Massachusetts"><a href="https://westernmass.dressforsuccess.org">Western Massachusetts</a></li><li data-childOf="USA_Massachusetts"><a href="https://worcester.dressforsuccess.org">Worcester</a></li><li data-childOf="USA_Michigan"><a href="https://michigan.dressforsuccess.org">Michigan</a></li><li data-childOf="USA_Minnesota"><a href="https://twincities.dressforsuccess.org">Twin Cities</a></li><li data-childOf="USA_Mississippi"><a href="https://metrojackson.dressforsuccess.org">Metro Jackson</a></li><li data-childOf="USA_Missouri"><a href="https://kansascity.dressforsuccess.org">Kansas City</a></li><li data-childOf="USA_Missouri"><a href="https://midwest.dressforsuccess.org">Midwest</a></li><li data-childOf="USA_Montana"><a href="https://billings.dressforsuccess.org">Billings</a></li><li data-childOf="USA_Montana"><a href="https://flatheadvalley.dressforsuccess.org">Flathead Valley</a></li><li data-childOf="USA_Nevada"><a href="https://reno.dressforsuccess.org">Reno - Northern Nevada</a></li><li data-childOf="USA_Nevada"><a href="https://southernnevada.dressforsuccess.org">Southern Nevada</a></li><li data-childOf="USA_New-Jersey"><a href="https://centralnj.dressforsuccess.org">Central New Jersey - 7 Counties</a></li><li data-childOf="USA_New-Jersey"><a href="https://hudsoncounty.dressforsuccess.org">Hudson County</a></li><li data-childOf="USA_New-Jersey"><a href="https://northernnj.dressforsuccess.org">Northern New Jersey - 10 Counties</a></li><li data-childOf="USA_New-Mexico"><a href="https://albuquerque.dressforsuccess.org">Albuquerque</a></li><li data-childOf="USA_New-York"><a href="https://albany.dressforsuccess.org">Albany</a></li><li data-childOf="USA_New-York"><a href="https://brookhaven.dressforsuccess.org">Brookhaven</a></li><li data-childOf="USA_New-York"><a href="https://buffalo.dressforsuccess.org">Buffalo</a></li><li data-childOf="USA_New-York"><a href="https://dutchesscounty.dressforsuccess.org">Dutchess County</a></li><li data-childOf="USA_New-York"><a href="https://rochester.dressforsuccess.org">Rochester</a></li><li data-childOf="USA_New-York"><a href="https://dressforsuccess.org">Worldwide</a></li><li data-childOf="USA_New-York"><a href="https://newyork.dressforsuccess.org">Worldwide - New York Program</a></li><li data-childOf="USA_North-Carolina"><a href="https://charlotte.dressforsuccess.org">Charlotte</a></li><li data-childOf="USA_North-Carolina"><a href="https://trianglenc.dressforsuccess.org">Triangle NC</a></li><li data-childOf="USA_North-Carolina"><a href="https://winstonsalem.dressforsuccess.org">Winston-Salem</a></li><li data-childOf="USA_Ohio"><a href="https://cincinnati.dressforsuccess.org">Cincinnati</a></li><li data-childOf="USA_Ohio"><a href="https://cleveland.dressforsuccess.org">Cleveland</a></li><li data-childOf="USA_Ohio"><a href="https://columbus.dressforsuccess.org">Columbus</a></li><li data-childOf="USA_Oklahoma"><a href="https://oklahomacity.dressforsuccess.org">Oklahoma City</a></li><li data-childOf="USA_Oklahoma"><a href="https://tulsa.dressforsuccess.org">Tulsa</a></li><li data-childOf="USA_Oregon"><a href="https://oregon.dressforsuccess.org">Oregon</a></li><li data-childOf="USA_Pennsylvania"><a href="https://allentown.dressforsuccess.org">Allentown</a></li><li data-childOf="USA_Pennsylvania"><a href="https://erie.dressforsuccess.org">Erie</a></li><li data-childOf="USA_Pennsylvania"><a href="https://lackawanna.dressforsuccess.org">Lackawanna</a></li><li data-childOf="USA_Pennsylvania"><a href="https://luzernecounty.dressforsuccess.org">Luzerne County</a></li><li data-childOf="USA_Pennsylvania"><a href="https://pittsburgh.dressforsuccess.org">Pittsburgh</a></li><li data-childOf="USA_Pennsylvania"><a href="https://southcentralpa.dressforsuccess.org">South Central PA</a></li><li data-childOf="USA_Rhode-Island"><a href="https://providence.dressforsuccess.org">Providence</a></li><li data-childOf="USA_South-Carolina"><a href="https://charlestoncounty.dressforsuccess.org">Charleston County</a></li><li data-childOf="USA_South-Carolina"><a href="https://columbia.dressforsuccess.org">Columbia</a></li><li data-childOf="USA_South-Dakota"><a href="https://blackhills.dressforsuccess.org">Black Hills - South Dakota</a></li><li data-childOf="USA_South-Dakota"><a href="https://siouxfalls.dressforsuccess.org">Sioux Falls</a></li><li data-childOf="USA_Tennessee"><a href="https://chattanooga.dressforsuccess.org">Chattanooga</a></li><li data-childOf="USA_Tennessee"><a href="https://memphis.dressforsuccess.org">Memphis</a></li><li data-childOf="USA_Tennessee"><a href="https://nashville.dressforsuccess.org">Nashville</a></li><li data-childOf="USA_Texas"><a href="https://austin.dressforsuccess.org">Austin</a></li><li data-childOf="USA_Texas"><a href="https://corpuschristi.dressforsuccess.org">Corpus Christi</a></li><li data-childOf="USA_Texas"><a href="https://dallas.dressforsuccess.org">Dallas</a></li><li data-childOf="USA_Texas"><a href="https://houston.dressforsuccess.org">Houston</a></li><li data-childOf="USA_Texas"><a href="https://permianbasin.dressforsuccess.org">Permian Basin - Texas</a></li><li data-childOf="USA_Texas"><a href="https://sanantonio.dressforsuccess.org">San Antonio</a></li><li data-childOf="USA_Virginia"><a href="https://centralvirginia.dressforsuccess.org">Central Virginia</a></li><li data-childOf="USA_Virginia"><a href="https://hamptonroads.dressforsuccess.org">Hampton Roads</a></li><li data-childOf="USA_Virginia"><a href="https://newrivervalley.dressforsuccess.org">New River Valley</a></li><li data-childOf="USA_Washington"><a href="https://seattle.dressforsuccess.org">Seattle</a></li><li data-childOf="USA_West-Virginia"><a href="https://rivercities.dressforsuccess.org">River Cities</a></li><li data-childOf="USA_Wisconsin"><a href="https://racine.dressforsuccess.org">Racine</a></li></ul>				</div>
+			</div>
+		</div>
+
+		<div id="sign-in-form-overlay" class="modal">
+			<div class="sign-in-module">
+				Sign in or <a href="/register/">register</a><br /><br />
+
+
+		<form name="loginform" id="loginform" action="https://centralvirginia.dressforsuccess.org/wp-login.php?wpe-login=true" method="post">
+
+			<p class="login-username">
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+
+			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary" value="Sign In" />
+				<input type="hidden" name="redirect_to" value="https://centralvirginia.dressforsuccess.org/" />
+			</p>
+
+		</form>
+				<a id="sign-in-forgot-pw" href="/wp-login.php?action=lostpassword">Forgot your Password?</a>
+
+				<button type="button" id="sign-in-close-x" class="modal-close-x"></button>
+				<script type="text/javascript">
+          window.modulesToInit.push({ view: "CaptchaForm", options: {el: "#loginform", captchaTag: '#user_login', captchaAction: "login", captchaPublicKey: "6LdmgLMUAAAAADD0wphmPwl42T8COaAAuGteXqHd" } });
+			  </script>
+			</div>
+		</div>
+
+			<div id="content">
+
+				<div id="affiliate-header">
+					<div id="affiliate-header-image-wrapper">
+						<img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/sites/10/2015/01/home-page-hero-4.jpg" alt="Home Page Hero 4" />
+
+						<span class="welcome">
+							Welcome to<br/>
+							Dress For Success<br/>
+							Central Virginia						</span>
+					</div>
+				</div>
+
+				<div id="affiliate-slogan-wrapper">
+					<span class="affiliate-slogan full-width-text">The mission of Dress for Success is to empower women to achieve economic independence by providing a network of support, professional attire and the development tools to help women thrive in work and in life.</span>
+					<a href="/about" class="red-button" style="width: 250px;">ABOUT US</a>
+				</div>
+
+				<div id="inner-content" class="wrap clearfix">
+					<div id="main" class="eightcol first clearfix" role="main">
+						<div class="donate-module">
+	<div class="module-content">
+		<div class="donate-clothes one-third">
+			<a href="/get-involved/donate/">
+				<div class="donate-image">
+					<img src="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/donate-clothes.png">
+				</div>
+				<div class="donate-text">
+					<span class="donate-title">Donate Clothes</span>
+					Your gently-used clothing gives a woman a new start.
+				</div>
+			</a>
+		</div>
+					<div class="donate-money one-third">
+				<a href="/get-involved/donate">
+					<div class="donate-image">
+						<img src="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/donate-money.png">
+					</div>
+				</a>
+				<div class="donate-text">
+					<span class="donate-title">Give Confidence</span>
+					<div class="donate-money-amount-wrapper">
+						<input class="donate-money-amount" type="text" value="30" />
+						<div class="donate-money-amount-dollar-sign">$</div>
+						<div class="donate-money-amount-currency"><!-- USD --></div>
+					</div>
+					<button class="donate-money-submit" type="button">Donate</button>
+				</div>
+			</div>
+				<div class="donate-volunteer one-third">
+			<a href="/get-involved/volunteer/">
+				<div class="donate-image">
+					<img src="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/donate-volunteer.png">
+				</div>
+				<div class="donate-text">
+					<span class="donate-title">Volunteer</span>
+					Dress for Success changes lives.  Join us and learn how.
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<script>
+window.modulesToInit.push('DonateModule');
+</script>
+<div class="events-module">
+	<div class="module-content clear-fix">
+		<div class="section-title">EVENTS</div>
+		<div class="events-module-items-wrapper">
+			There are no upcoming events at this time.		</div>
+			</div>
+</div>								<div class="news-module">
+			<div class="module-content clear-fix">
+				<div class="section-title">NEWS</div>
+
+				<div class="event-module-wrapper">
+
+					<div class="events-module-item one-half clear-fix solo">
+						<div class="events-module-image-wrapper">
+							<div class="events-module-image" style="background-image: url(https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/news/news-filler-resized-02.jpg);"></div>
+						</div>
+
+						<div class="events-module-details">
+							<div class="events-module-title">Updated Donation Guidelines (10/10/17)</div>
+							<div class="events-module-date">October 10 2017</div>
+							<div class="events-module-summary">Updated Donation Guidelines (10/10/17)</div>
+							<a href="https://centralvirginia.dressforsuccess.org/news/updated-donation-guidelines-101017/">LEARN MORE &raquo;</a>
+						</div>
+					</div>
+									</div>
+
+				<div class="module-see-all"><a href="/news">See All News</a></div>
+			</div>
+		</div>
+
+<div class="programs-module">
+	<div class="module-content clear-fix">
+
+		<div class="section-title">PROGRAMS</div>
+
+		<div class="programs-module-pages-wrapper">
+			<ul class="programs-module-page"><li class="programs-module-item clear-fix duo"><a href="https://centralvirginia.dressforsuccess.org/programs/suiting/" class="programs-module-thumb" style="background-image: url(https://centralvirginia.dressforsuccess.org/wp-content/uploads/sites/10/2015/01/programs-suiting-resized.jpg);">Suiting</a><span>We want you to feel your best while job searching and in the first few weeks of employment. Once you've scheduled an interview, obtain a referral to visit your local Dress for Success boutique. Our volunteers will work with you to help you choose an interview outfit and will also provide guidance and support for the upcoming interview. </span></li><li class="programs-module-item clear-fix"><a href="https://centralvirginia.dressforsuccess.org/programs/career-center/" class="programs-module-thumb" style="background-image: url(https://centralvirginia.dressforsuccess.org/wp-content/uploads/sites/10/2015/01/programs-capacity-building-resized.jpg);">Career Center</a><span>These programs address and eliminate the frustrating obstacles that may arise during a search for employment.  Women meet regularly to support and encourage each other through building confidence, networking and discussing workplace-related topics.  These meetings help participants stay motivated and optimistic. </span></li></ul>		</div>
+
+		<ul class="circle-page-controls"></ul>
+
+	</div> <!-- module-content -->
+</div> <!-- module -->
+
+<script type="text/javascript">
+window.modulesToInit.push('ProgramsModule');
+</script>
+
+
+<div class="friends-module">
+    <div class="module-content">
+        <div class="section-title">OUR SPONSORS</div>
+
+        <div class="friends-list-wrapper">
+
+            <ul class="friends-list clear-fix"><li><div class="friends-list-item-wrapper"><a href="https://us.axa.com/home.html" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2015/02/2000px-AXA_Logo.svg_-1.png" alt="AXA" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="http://alphasigmatau.org/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2019/01/alpha-sigma-tau@2x.png" alt="Alpha Sigma Tau" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="http://www.boldisbeautiful.com/us/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2016/03/Benefit_sf_logo.jpg" alt="Benefit Cosmetics" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="https://www.cleareyes.com/myshiningmoment/dress-for-success/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2019/04/clear_eyes_unregistered_trademark.png" alt="Clear Eyes" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="http://www.upsfreight.com/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/sites/10/2016/03/UPS-Freight-4c-1.jpg" alt="Event Sponsor" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="https://www.fedex.com/us/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2016/03/feclct2_e_prf_2c_pos_cmyk.eps_.thumb_.375.562.jpg" alt="FedEx" /></a></div></li></ul><ul class="friends-list clear-fix"><li><div class="friends-list-item-wrapper"><a href="https://www.officedepot.com/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2019/01/OD_Stacked_Red.jpg" alt="Office Depot" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="http://www.roberthalf.com/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2015/02/robert-half.jpg" alt="Robert Half" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="http://www.talbots.com/online/home" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2015/02/talbots.jpg" alt="Talbots" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="https://www.ulta.com/" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2018/11/1280px-Ulta_Beauty_logo.svg_.png" alt="Ulta Beauty" /></a></div></li><li><div class="friends-list-item-wrapper"><a href="http://shop.vanityfairlingerie.com/info/For_Women_Who_Do" target="_blank"><img src="https://centralvirginia.dressforsuccess.org/wp-content/uploads/2015/09/VanityFair_Logo_Black.jpg" alt="Vanity Fair Lingerie" /></a></div></li></ul>        </div>
+
+        <ul class="circle-page-controls"></ul>
+    </div>
+</div>
+
+<script>
+window.modulesToInit.push('FriendsModule');
+</script>
+
+					</div>
+				</div>
+			</div>
+
+
+			<footer class="footer" role="contentinfo">
+				<div id="inner-footer" class="wrap clearfix">
+
+					<p class="source-org copyright">&copy; 2019 Dress for Success</p>
+
+					<div class="footer-nav">
+						<ul>
+							<li><a href="/contact">Contact</a></li>
+							<li><a href="/donate">Donate</a></li>
+							<li><a href="/contact" id="footer-join-newsletter">Join Newsletter</a></li>
+							<li><a href="https://dressforsuccess.org/terms-of-service">Terms</a></li>
+							<li><a href="https://dressforsuccess.org/privacy-policy">Privacy</a></li>
+						</ul>
+					</div>
+
+					<div id="social" class="connect">
+						<div class="connect-label">Connect with us:</div>
+
+
+								<div class="media-btn">
+									<a target="_blank" href="https://www.facebook.com/DressForSuccessCVA" class="facebook"></a>
+								</div>
+
+								<div class="media-btn">
+									<a target="_blank" href="https://twitter.com/dfscentralva" class="twitter"></a>
+								</div>
+
+								<div class="media-btn">
+									<a target="_blank" href="https://instagram.com/dfscentralva/" class="instagram"></a>
+								</div>
+
+								<div class="media-btn">
+									<a target="_blank" href="https://www.pinterest.com/dfsvirginia/" class="pinterest"></a>
+								</div>
+
+											</div>
+				</div>
+
+								<div id="newsletter-form-overlay" class="modal">
+					<div id="newsletter-thank-you" class="form-thank-you">
+						Thank You! You have been added to the DFS newsletter.
+					</div>
+					<div id="newsletter-modal-content" class="modal-content form-wrapper">
+						<h3>Join the<br />DFS Newsletter</h3>
+						<div id="newsletter-form">
+							<div class="loading-cover">
+								<img src="https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/images/loading.gif" alt="loading" />
+							</div>
+							<div class="form-fields">
+								<div class="form-col">
+									<label for="newsletter-first-name">First Name:</label>
+									<input type="text" id="newsletter-first-name" data-v-required value="" />
+									<br />
+									<label for="newsletter-last-name">Last Name:</label>
+									<input type="text" id="newsletter-last-name" data-v-required value="" />
+									<br />
+									<label for="newsletter-email">E-mail:</label>
+									<input type="text" id="newsletter-email" data-v-required data-v-format-email value="" />
+								</div>
+							</div>
+							<button type="button" id="newsletter-submit" class="red-button form-submit">Join</button>
+						</div>
+
+						<button type="button" id="newsletter-close-x" class="modal-close-x"></button>
+					</div>
+				</div>
+
+				<div id="gdpr-notice" class="footer-modal">
+					<div id="gdpr-modal-content" class="footer-modal-content">
+						<div id="gdpr-description" class="footer-modal-text">
+							<div>Dress for Success uses cookies in order to better understand who visits our site, which is administered in the United States, and how we can better engage our users. For more information, you can read our privacy policy <a target="_blank" href="https://dressforsuccess.org/privacy-policy/">here</a>.</div>
+							<div>I hereby consent to the use of cookies and transfer of this data to the United States.</div>
+						</div>
+
+						<div class="gdpr-buttons">
+							<button type="button" id="gdpr-modal-accept" class="modal-button">Accept</button>
+							<button type="button" id="gdpr-modal-dismiss" class="modal-button">Dismiss</button>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+		</div>
+
+				<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/js/dfs.libs.min.js'></script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/js/language-selector.js'></script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/js/scripts.js?v=1.01'></script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-content/themes/dfs/library/js/dfs.app.min.js?v=1.17'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyC-qmJbzyhG0_UK8R23RqjCbk67xZQgElI'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LdmgLMUAAAAADD0wphmPwl42T8COaAAuGteXqHd'></script>
+<script type='text/javascript' src='https://centralvirginia.dressforsuccess.org/wp-includes/js/wp-embed.js'></script>
+	</body>
+</html>
