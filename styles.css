@@ -117,12 +117,6 @@ body{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
-
-  .collapsible_para {
-    text-align: center;
-    width: 80%;
-  }
-
 }
 @media(max-width: 600px){
   .navbar{
