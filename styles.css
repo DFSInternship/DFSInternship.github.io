@@ -79,6 +79,11 @@ body{
   .link{
     margin-left: auto;
   }
+  .pageContent{
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
   .closeBuffer{
     background-color: #aa2222;
     width: 100%;
@@ -86,7 +91,7 @@ body{
   }
   .collapseBoxes{
     width: 80%;
-    margin-left: 10%;
+    display: inline-block;
   }
   .collapsible {
     background-color: #aa2222;
@@ -121,6 +126,7 @@ body{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
+  .
 }
 @media(max-width: 600px){
   .navbar{
