@@ -80,7 +80,7 @@ body{
     margin-left: auto;
   }
   .pageContent{
-    width:100%;
+    width: 100%;
     text-align: center;
     display: block;
   }
@@ -89,8 +89,8 @@ body{
     width: 100%;
     height: 5vh;
   }
-  .collapseBoxes {
-    width:80%;
+  .collapseBoxes{
+    width: 80%;
     display: inline-block;
   }
   .collapsible {
@@ -100,10 +100,11 @@ body{
     color: white;
     cursor: pointer;
     padding: 18px;
+    width: 100%;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 25px;
+    font-size: 2vw;
   }
   .active, .collapsible:hover {
     background-color: #d92929;
@@ -175,9 +176,51 @@ body{
   .navItems:hover .navContent{
     display: block;
   }
+  .pageContent{
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
   .closeBuffer{
     background-color: #aa2222;
     width: 100%;
     height: 5vh;
+  }
+  .collapseBoxes{
+    width: 80%;
+    display: inline-block;
+  }
+  .collapsible {
+    background-color: #aa2222;
+    border-radius: 4px;
+    margin-top: 2px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 4vw;
+  }
+  .active, .collapsible:hover {
+    background-color: #d92929;
+  }
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
   }
 }
