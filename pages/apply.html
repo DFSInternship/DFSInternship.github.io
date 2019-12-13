@@ -26,7 +26,6 @@
         <div id="drpdown" class="navContent">
           <a href="./donate.html">Donate</a>
           <a href="./apply.html">Apply</a>
-          <a href="./volunteer.html">Volunteer</a>
           <a href="./testimonials.html">Testimonials</a>
         </div>
       </div>
@@ -35,5 +34,28 @@
   <div class="closeBuffer">
   </div>
 </div>
+<div class="collapseBoxes">
+  <button type="button" class="collapsible">Leadership Development</button>
+  <div class="content">
+    <p>Through WE Academy girls have the ability and are encouraged to be imaginative, innovative, authoritative, risk-taking, and drive innovation and technological change in their local economy.</p>
+    <p>Through WE Academy’s Social Entrepreneurship Labs (during weeks 4-8 of the cohort) participants will explore entrepreneurship first-hand by working with local nonprofit enterprises and for-profit ventures that have a mission aligned with their future business and make strategic recommendations to the participating organizations and firms after careful analysis in order to leverage greater growth.</p>
+  </div>
+</div>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+</script>
 </body>
 </html>

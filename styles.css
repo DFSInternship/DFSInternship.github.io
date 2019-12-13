@@ -82,7 +82,6 @@ body{
   .pageContent{
     width: 100%;
     text-align: center;
-    display: block;
   }
   .closeBuffer{
     background-color: #aa2222;
@@ -92,6 +91,7 @@ body{
   .collapseBoxes{
     width: 80%;
     display: inline-block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .collapsible {
     background-color: #aa2222;
@@ -126,7 +126,37 @@ body{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
-  .
+  .Weltext{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  .welcome{
+    width: 80%;
+    display: inline-block;
+    margin-top: 1vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .WelLogo{
+  }
+  .overlay{
+    position: absolute;
+    background-color: rgba(0, 3, 3, 0.75);
+    top: 40%;
+    width: 78vw;
+    height: auto;
+    color: white;
+    z-index: 1;
+  }
+  .overlay h1{
+    position: relative;
+    top: -4vw;
+    font-size: 2vw;
+  }
+  .overlay img{
+    position: relative;
+    top: 50%;
+  }
 }
 @media(max-width: 600px){
   .navbar{
