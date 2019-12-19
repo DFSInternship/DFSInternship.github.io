@@ -1,7 +1,7 @@
 body{
   margin: 0;
   background-color: white;
-  font-family: verdana;
+  font-family: sans-serif;
   overflow-x: hidden;
   text-align: center;
 }
@@ -48,36 +48,6 @@ body{
     background-position: -175px -5px;
   }
   .pinterest:hover{
-    background-position: -175px -62px;
-  }
-  .facebook1, .instagram1, .twitter1, .pinterest1{
-    background: url("./resources/smi1.jpg") no-repeat;
-    margin-right: 0.25vw;
-    width: 50px;
-    height: 50px;
-  }
-  .facebook1{
-    background-position: -61px -5px;
-  }
-  .facebook1:hover{
-      background-position: -61px -62px;
-  }
-  .instagram1{
-    background-position: -118px -5px;
-  }
-  .instagram1:hover{
-    background-position: -118px -62px;
-  }
-  .twitter1{
-    background-position: -4px -5px;
-  }
-  .twitter1:hover{
-    background-position: -4px -62px;
-  }
-  .pinterest1{
-    background-position: -175px -5px;
-  }
-  .pinterest1:hover{
     background-position: -175px -62px;
   }
   .navItems{
@@ -151,6 +121,8 @@ body{
   }
   .content {
     padding: 0 18px;
+    text-align: left;
+    font-size: 2vw;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -186,6 +158,24 @@ body{
   .overlay img{
     position: relative;
     top: 50%;
+  }
+  .curriculumLists{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  .curriculumLists li{
+    margin-top: 1vw;
+  }
+  .contentHeader{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #aa2222;
+  }
+  .formFooter-heightMask{
+    display: none;
   }
 }
 @media(max-width: 600px){
@@ -299,8 +289,8 @@ body{
   .overlay{
     position: absolute;
     background-color: rgba(0, 3, 3, 0.75);
-    top: 30%;
-    width: 76vw;
+    top: 25%;
+    width: 77vw;
     height: auto;
     color: white;
     z-index: 1;
@@ -313,135 +303,5 @@ body{
   .overlay img{
     position: relative;
     top: 50%;
-  }
-}
-
-.footer {
-  clear: both;
-  background-color: #CDB78F;
-  width: 100%;
-}
-.footer #inner-footer {
-  color: white;
-  font-size: 12px;
-  font-size: 1.2rem;
-  padding: 2% 5% 2% 5%;
-  margin: 0 auto;
-  max-width: 1440px;
-}
-.footer .footer-nav {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-.footer .footer-nav ul li {
-  padding: 0 1% 0 1%;
-}
-.footer .footer-nav ul li a {
-  text-transform: uppercase;
-  color: white;
-  background-color: inherit;
-}
-.footer .connect {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-.footer .connect .connect-label {
-  display: none;
-}
-.footer .connect .media-btn {
-  display: inline-block;
-  padding: 0% 2% 0% 2%;
-  vertical-align: middle;
-}
-.footer .connect .media-btn a {
-  display: block;
-  width: 35px;
-  height: 35px;
-  background-image: url(../images/sprite.png);
-}
-.footer .connect .media-btn a.facebook {
-  background-position: -49px -224px;
-}
-.footer .connect .media-btn a.twitter {
-  background-position: -127px -224px;
-}
-.footer .connect .media-btn a.instagram {
-  background-position: -88px -224px;
-}
-.footer .connect .media-btn a.pinterest {
-  background-position: -10px -224px;
-}
-.footer .connect .media-btn a.youtube {
-  background-position: -166px -224px;
-}
-.footer .connect .media-btn a.linkedin {
-  background-position: -205px -224px;
-}
-/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
-/* end .footer-links */
-.copyright {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-
-.no_underscore {
-  text-decoration: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .footer {
-    clear: both;
-    margin: 0 auto;
-  }
-  .footer #inner-footer {
-    padding: 2% 5.2% 2% 5.2%;
-  }
-  .footer .footer-nav {
-    float: right;
-    width: 65%;
-    text-align: right;
-  }
-  .footer .footer-nav ul li {
-    display: inline-block;
-    border-right: 1px white solid;
-  }
-  .footer .footer-nav ul li:first-child {
-    padding-left: 0;
-  }
-  .footer .footer-nav ul li:last-child {
-    padding-right: 0;
-    border-right: none;
-  }
-  .footer .connect {
-    position: relative;
-    clear: both;
-    text-align: center;
-    width: 100%;
-  }
-  /*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
-  /* end .footer-links */
-  .copyright {
-    float: left;
-    width: 35%;
-    text-align: left;
   }
 }
