@@ -177,7 +177,7 @@ body{
     position: absolute;
     background-color: rgba(0, 3, 3, 0.75);
     top: 40%;
-    width: 78vw;
+    width: 100%;
     height: auto;
     color: white;
     z-index: 1;
