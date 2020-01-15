@@ -125,9 +125,7 @@ body{
   }
   .collapsible {
     background-color: #aa2222;
-    border-radius: 4px;
-    margin-top: 2px;
-    margin-bottom: 4px;
+    margin-bottom: 0.25vw;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -163,12 +161,13 @@ body{
     display: inline-block;
     text-align: center;
     font-size: 1.5vw;
-    width: 100%;
+    width: 95%;
   }
   .welcome{
     width: 80%;
     display: inline-block;
     margin-top: 1vw;
+    margin-bottom: 1vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .WelLogo{
@@ -208,6 +207,26 @@ body{
   }
   .formFooter-heightMask{
     display: none;
+  }
+  .boxesIntro h4{
+    position: relative;
+    top: 0.25vw;
+    padding: 1vw;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: normal;
+    background-color: #aa2222;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    width: 40%;
+    margin: 0 auto;
+  }
+  .collapseBoxes{
+    border-color: #aa2222;
+    border-width: 1vw;
+    border-style: solid;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
   }
 }
 @media(max-width: 600px){
@@ -275,7 +294,6 @@ body{
   .collapsible {
     background-color: #aa2222;
     border-radius: 4px;
-    margin-top: 2px;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -308,11 +326,6 @@ body{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
     font-size: 1.3vw;
-  }
-  .Weltext{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
   }
   .welcome{
     width: 80%;
@@ -419,7 +432,6 @@ body{
   width: 100%;
   text-align: center;
 }
-
 .no_underscore {
   text-decoration: none;
 }
