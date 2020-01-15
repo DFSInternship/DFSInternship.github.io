@@ -518,3 +518,55 @@ body{
   display:table;
   clear:both;
 }
+
+.body
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	/**position: static;**/
+	padding: 10px 40px;
+  float:center;
+  margin-top: 20px;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blue
+{
+	background-color: #A0B2B0;
+	border-bottom: 5px solid #A0B2B0;
+}
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 10px solid;
+}
+
+.donatepg
+{
+  margin-right:8%;
+  margin-left:8%;
+  margin-bottom:8%;
+  margin-top: 4vw;
+  font-size: 20px;
+}
+
+.imgdon
+{
+  margin-top: 2vw;
+}
