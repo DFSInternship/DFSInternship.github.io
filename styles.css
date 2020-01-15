@@ -170,26 +170,6 @@ body{
     margin-bottom: 1vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
-  .WelLogo{
-  }
-  .overlay{
-    position: absolute;
-    background-color: rgba(0, 3, 3, 0.75);
-    top: 40%;
-    width: 100%;
-    height: auto;
-    color: white;
-    z-index: 1;
-  }
-  .overlay h1{
-    position: relative;
-    top: -4vw;
-    font-size: 2vw;
-  }
-  .overlay img{
-    position: relative;
-    top: 50%;
-  }
   .curriculumLists{
     display: flex;
     flex-direction: row;
@@ -333,25 +313,31 @@ body{
     margin-top: 1vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
-  .WelLogo{
-  }
-  .overlay{
-    position: absolute;
-    background-color: rgba(0, 3, 3, 0.75);
-    top: 25%;
-    width: 77vw;
-    height: auto;
+  .boxesIntro h4{
+    position: relative;
+    top: 0.25vw;
+    padding: 1vw;
     color: white;
-    z-index: 1;
+    font-size: 2.5vw;
+    font-weight: normal;
+    background-color: #aa2222;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    width: 40%;
+    margin: 0 auto;
   }
-  .overlay h1{
-    position: relative;
-    top: -4vw;
-    font-size: 2vw;
+  .collapseBoxes{
+    border-color: #aa2222;
+    border-width: 1vw;
+    border-style: solid;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
   }
-  .overlay img{
-    position: relative;
-    top: 50%;
+  .Weltext{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 95%;
   }
 }
 
@@ -482,7 +468,6 @@ body{
     text-align: left;
   }
 }
-
 .testimonials-module {
   clear: both;
   position: relative;
