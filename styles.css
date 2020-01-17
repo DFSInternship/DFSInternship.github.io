@@ -21,64 +21,64 @@ body{
     margin-bottom: 1vw;
   }
   .facebook, .instagram, .twitter, .pinterest{
-    background: url("./resources/smi.jpg") no-repeat;
+    background: url("./resources/original_sp.png") no-repeat;
     margin-right: 0.25vw;
-    width: 50px;
-    height: 50px;
+    width: 38px;
+    height: 39px;
   }
   .facebook{
-    background-position: -61px -5px;
+    background-position: -0px -127px;
   }
   .facebook:hover{
-      background-position: -61px -62px;
+      background-position: -0px -266px;
   }
   .instagram{
-    background-position: -118px -5px;
+    background-position: -96px -127px;
   }
   .instagram:hover{
-    background-position: -118px -62px;
+    background-position: -96px -266px;
   }
   .twitter{
-    background-position: -4px -5px;
+    background-position: -48px -127px;
   }
   .twitter:hover{
-    background-position: -4px -62px;
+    background-position: -48px -266px;
   }
   .pinterest{
-    background-position: -175px -5px;
+    background-position: -144px -127px;
   }
   .pinterest:hover{
-    background-position: -175px -62px;
+    background-position: -144px -266px;
   }
   .facebook1, .instagram1, .twitter1, .pinterest1{
-    background: url("./resources/smi1.jpg") no-repeat;
+    background: url("./resources/original_sp2.png") no-repeat;
     margin-right: 0.25vw;
-    width: 50px;
-    height: 50px;
+    width: 38px;
+    height: 39px;
   }
   .facebook1{
-    background-position: -61px -5px;
+    background-position: -0px -127px;
   }
   .facebook1:hover{
-      background-position: -61px -62px;
+      background-position: -0px -266px;
   }
   .instagram1{
-    background-position: -118px -5px;
+    background-position: -96px -127px;
   }
   .instagram1:hover{
-    background-position: -118px -62px;
+    background-position: -96px -266px;
   }
   .twitter1{
-    background-position: -4px -5px;
+    background-position: -48px -127px;
   }
   .twitter1:hover{
-    background-position: -4px -62px;
+    background-position: -48px -266px;
   }
   .pinterest1{
-    background-position: -175px -5px;
+    background-position: -144px -127px;
   }
   .pinterest1:hover{
-    background-position: -175px -62px;
+    background-position: -144px -266px;
   }
   .navItems{
     margin-left: auto;
