@@ -294,6 +294,7 @@ body{
   .collapseBoxes{
     font-size: 2vw;
     font-weight: 9001;
+    text-align:center;
   }
   .active, .collapsible:hover {
     background-color: #d92929;
@@ -314,7 +315,7 @@ body{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
-    font-size: 3vw;
+    font-size: 3.7vw;
   }
   .content li{
     padding-bottom: 6px;
@@ -332,7 +333,7 @@ body{
     top: 0.25vw;
     padding: 1vw;
     color: white;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: normal;
     background-color: #aa2222;
     border-top-left-radius: 1vw;
@@ -355,7 +356,6 @@ body{
     width: 95%;
   }
 }
-
 .footer {
   clear: both;
   background-color: #CDB78F;
@@ -370,16 +370,22 @@ body{
 }
 .footer .footer-nav {
   display: block;
-  width: 100%;
+  width: 90%;
   text-align: center;
 }
 .footer .footer-nav ul li {
   padding: 0 1% 0 1%;
+  display: inline-block;
+  border-right: 1px white solid;
 }
 .footer .footer-nav ul li a {
   text-transform: uppercase;
   color: white;
   background-color: inherit;
+}
+.footer .footer-nav ul li:last-child {
+  padding-right: 0;
+  border-right: none;
 }
 .footer .connect {
   display: block;
